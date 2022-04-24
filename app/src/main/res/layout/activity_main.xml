@@ -29,6 +29,25 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Go to an other app !" />
+
+        <Button
+            android:id="@+id/btnImpliciteIntent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call for an implicite intent !" />
+
+        <Button
+            android:id="@+id/btnSendSMS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send SMS" />
+
+        <Button
+            android:id="@+id/btnSendSMSviaIntent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send SMS via intent" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
